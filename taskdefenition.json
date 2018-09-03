@@ -4,7 +4,7 @@
   "cpu": "512",
   "memory": "1024",
   "networkMode": "awsvpc",
-  "taskRoleArn": "arn:aws:iam::none",
+  "taskRoleArn": "arn:aws:iam::arn:aws:iam::arn:aws:iam::921759041822:role/ecsTaskExecutionRole",
   "executionRoleArn": "arn:aws:iam::arn:aws:iam::921759041822:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
