@@ -17,8 +17,7 @@
                 "sh",
 		"-c"
             ], 
-        }
-    ], 
+	}
     "requiresCompatibilities": [
         "FARGATE"
     ], 
