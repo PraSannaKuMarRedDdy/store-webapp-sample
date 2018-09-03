@@ -2,7 +2,7 @@
     "cluster": "Deployment",
     "serviceName": "app1",
     "taskDefinition": "fargate1:1",
-    "desiredCount": "1",
+    "desiredCount": 1,
     "launchType": "FARGATE",
     "platformVersion": "LATEST",
     "loadBalancers": [
