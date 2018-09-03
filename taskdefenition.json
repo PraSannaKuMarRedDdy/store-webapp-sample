@@ -1,8 +1,8 @@
 {
-  "family": "workshop",
+  "family": "fargate1",
   "requiresCompatibilities": ["FARGATE"],
-  "cpu": "256",
-  "memory": "512",
+  "cpu": "512",
+  "memory": "1024",
   "networkMode": "awsvpc",
   "taskRoleArn": "arn:aws:iam::none",
   "executionRoleArn": "arn:aws:iam::arn:aws:iam::921759041822:role/ecsTaskExecutionRole",
