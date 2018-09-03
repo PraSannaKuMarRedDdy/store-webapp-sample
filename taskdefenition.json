@@ -1,0 +1,30 @@
+{
+  "family": "workshop",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512",
+  "networkMode": "awsvpc",
+  "taskRoleArn": "arn:aws:iam::none",
+  "executionRoleArn": "arn:aws:iam::arn:aws:iam::921759041822:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "javaapp",
+      "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:webapp_7",
+      "essential": true,
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/workshop",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "portMappings": [
+        {
+          "protocol": "tcp",
+          "containerPort": 8080
+        }
+      ]
+    }
+  ]
+}
