@@ -129,9 +129,9 @@
     ],
     "volumes": [
         {
-            "name": "",
+            "name": "tmp",
             "host": {
-                "sourcePath": ""
+                "sourcePath": "/"
             },
             "dockerVolumeConfiguration": {
                 "scope": "shared",
