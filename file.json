@@ -1,14 +1,14 @@
 {
-    "family": "sample-fargate", 
+    "family": "fargate", 
     "networkMode": "awsvpc", 
     "containerDefinitions": [
         {
             "name": "fargate-app", 
-            "image": "httpd:2.4", 
+            "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:webapp_7", 
             "portMappings": [
                 {
-                    "containerPort": 80, 
-                    "hostPort": 80, 
+                    "containerPort": 8080, 
+                    "hostPort": 5000, 
                     "protocol": "tcp"
                 }
             ], 
