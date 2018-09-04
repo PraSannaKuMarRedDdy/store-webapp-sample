@@ -1,5 +1,5 @@
 {
-  "family": "fargate2",
+  "family": "fargate3",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
   "memory": "1024",
