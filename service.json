@@ -1,7 +1,7 @@
 {
     "cluster": "Deployment",
-    "serviceName": "app1",
-    "taskDefinition": "deploy-fargate:1",
+    "serviceName": "Hello",
+    "taskDefinition": "Deploy1:1",
     "desiredCount": 1,
     "launchType": "FARGATE",
     "platformVersion": "LATEST",
@@ -15,9 +15,9 @@
 	"logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
-                    "awslogs-group": "awslogs-wordpress",
-                    "awslogs-region": "us-west-2",
-                    "awslogs-stream-prefix": "awslogs-example"
+                    "awslogs-group": "Deploy1",
+                    "awslogs-region": "us-west-1",
+                    "awslogs-stream-prefix": "ecs"
                 }
             },
     "networkConfiguration": {
