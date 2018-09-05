@@ -12,6 +12,14 @@
             "containerPort": 8080
         }
     ],
+"logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/deploy-fargate",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+	}
+}
     "networkConfiguration": {
         "awsvpcConfiguration": {
             "subnets": ["subnet-04acd2caa0159088d","subnet-0a74e67173eefe274","subnet-0af71baf5d4050267","subnet-0af73453717c64e4f","subnet-0c05d9c9d9e5785e0","subnet-0fb1b9b6bbb5f422e"],
