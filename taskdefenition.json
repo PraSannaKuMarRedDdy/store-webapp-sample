@@ -1,5 +1,5 @@
 {
-  "family": "fargate3",
+  "family": "deploy-fargate",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
   "memory": "1024",
