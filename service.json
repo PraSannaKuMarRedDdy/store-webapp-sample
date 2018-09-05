@@ -1,13 +1,13 @@
 {
     "cluster": "Deployment",
     "serviceName": "app1",
-    "taskDefinition": "fargate3:1",
+    "taskDefinition": "deploy-fargate:1",
     "desiredCount": 1,
     "launchType": "FARGATE",
     "platformVersion": "LATEST",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:921759041822:targetgroup/fargate-td/80c3844152109e13",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:921759041822:targetgroup/my-td/1af22a5c299ab009",
             "containerName": "javaapp",
             "containerPort": 80
         }
