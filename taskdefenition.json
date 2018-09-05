@@ -1,5 +1,5 @@
 {
-  "family": "deploy-fargate",
+  "family": "Deploy1",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
   "memory": "1024",
@@ -14,7 +14,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/ecs/workshop",
+          "awslogs-group": "/ecs/Deploy1",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
