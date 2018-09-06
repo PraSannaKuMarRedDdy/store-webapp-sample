@@ -20,7 +20,7 @@
       "logConfiguration": {
         "logDriver": "json-file",
         "options": {
-          "awslogs-group": "/ecs/webapp",
+          "awslogs-group": "/ecs/awslogs",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
