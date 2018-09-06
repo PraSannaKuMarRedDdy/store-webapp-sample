@@ -1,5 +1,5 @@
 {
-  "family": "store1",
+  "family": "hari",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
   "memory": "512",
@@ -8,13 +8,13 @@
   "executionRoleArn": "arn:aws:iam::921759041822:role/ecs_role_Task",
   "containerDefinitions": [
     {
-      "name": "app11",
+      "name": "application",
       "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:webapp_8",
       "essential": true,
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "store1",
+          "awslogs-group": "hari",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
