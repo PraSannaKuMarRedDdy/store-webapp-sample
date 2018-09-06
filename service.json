@@ -8,7 +8,7 @@
     "loadBalancers": [
         {
             "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:921759041822:targetgroup/my-td/1af22a5c299ab009",
-            "containerName": "app1",
+            "containerName": "app11",
             "containerPort": 8080
         }
     ],
