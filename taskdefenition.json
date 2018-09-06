@@ -4,8 +4,8 @@
   "cpu": "256",
   "memory": "512",
   "networkMode": "awsvpc",
-  "taskRoleArn": "arn:aws:iam::none",
-  "executionRoleArn": "arn:aws:iam::arn:aws:iam::921759041822:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::921759041822:role/ecs_role_Task",
+  "executionRoleArn": "arn:aws:iam::921759041822:role/ecs_role_Task",
   "containerDefinitions": [
     {
       "name": "javaapp",
