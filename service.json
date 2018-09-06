@@ -1,7 +1,7 @@
 {
     "cluster": "Deployment",
-    "serviceName": "hello2",
-    "taskDefinition": "app2:1",
+    "serviceName": "hello3",
+    "taskDefinition": "harry1:1",
     "desiredCount": 1,
     "launchType": "FARGATE",
     "platformVersion": "LATEST",
