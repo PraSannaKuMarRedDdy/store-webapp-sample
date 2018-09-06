@@ -8,7 +8,7 @@
   "executionRoleArn": "arn:aws:iam::921759041822:role/ecs_role_Task",
   "containerDefinitions": [
     {
-      "name": "javaapp",
+      "name": "storeapp",
       "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:webapp_8",
       "essential": true,
       "portMappings": [
