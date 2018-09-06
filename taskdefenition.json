@@ -1,5 +1,5 @@
 {
-  "family": "app2",
+  "family": "app1",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
   "memory": "1024",
