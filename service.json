@@ -1,7 +1,7 @@
 {
     "cluster": "Deployment",
     "serviceName": "appy",
-    "taskDefinition": "webapp:1",
+    "taskDefinition": "store:1",
     "desiredCount": 1,
     "launchType": "FARGATE",
     "platformVersion": "LATEST",
