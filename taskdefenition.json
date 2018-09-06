@@ -10,9 +10,8 @@
     {
       "name": "javaapp",
       "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:webapp_8",
-      "essential": true,
-      
-        }
+      "essential": true
+    }
       },
       "portMappings": [
         {
