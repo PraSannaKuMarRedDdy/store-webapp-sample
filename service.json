@@ -1,14 +1,14 @@
 {
     "cluster": "Deployment",
-    "serviceName": "appy",
-    "taskDefinition": "store1:1",
+    "serviceName": "application",
+    "taskDefinition": "hari:1",
     "desiredCount": 1,
     "launchType": "FARGATE",
     "platformVersion": "LATEST",
     "loadBalancers": [
         {
             "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:921759041822:targetgroup/my-td/1af22a5c299ab009",
-            "containerName": "app11",
+            "containerName": "application",
             "containerPort": 8080
         }
     ],
