@@ -1,5 +1,5 @@
 {
-  "family": "Deploy1",
+  "family": "app1",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
   "memory": "1024",
@@ -9,12 +9,12 @@
   "containerDefinitions": [
     {
       "name": "javaapp",
-      "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:webapp_7",
+      "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:webapp_8",
       "essential": true,
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "Deploy1",
+          "awslogs-group": "/ecs/app1",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
