@@ -1,7 +1,7 @@
 {
     "cluster": "Deployment",
-    "serviceName": "application",
-    "taskDefinition": "hari:1",
+    "serviceName": "harry",
+    "taskDefinition": "powerup:1",
     "desiredCount": 1,
     "launchType": "FARGATE",
     "platformVersion": "LATEST",
