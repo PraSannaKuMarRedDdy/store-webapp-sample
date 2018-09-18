@@ -9,7 +9,7 @@
   "containerDefinitions": [
     {
       "name": "application",
-      "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:webapp_8",
+      "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:web_app8",
       "essential": true,
       "logConfiguration": {
         "logDriver": "awslogs",
