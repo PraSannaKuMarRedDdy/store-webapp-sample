@@ -1,14 +1,14 @@
 {
     "cluster": "Deployment",
     "serviceName": "harry",
-    "taskDefinition": "powerup:1",
+    "taskDefinition": "powerupcloud:1",
     "desiredCount": 1,
     "launchType": "FARGATE",
     "platformVersion": "LATEST",
     "loadBalancers": [
         {
             "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:921759041822:targetgroup/My-tg/72cba3e5273071b5",
-            "containerName": "application",
+            "containerName": "Java_application",
             "containerPort": 8080
         }
     ],
