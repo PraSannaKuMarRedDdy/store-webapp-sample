@@ -1,0 +1,11 @@
+diff --git a/Gruntfile.js b/Gruntfile.js
+--- a/Gruntfile.js
++++ b/Gruntfile.js
+@@ -13,7 +13,6 @@ module.exports = function( grunt ) {
+ 
+ 	var fs = require( "fs" ),
+ 		stripJSONComments = require( "strip-json-comments" ),
+-		gzip = require( "gzip-js" ),
+ 		srcHintOptions = readOptionalJSON( "src/.jshintrc" ),
+ 		newNode = !/^v0/.test( process.version ),
+ 
