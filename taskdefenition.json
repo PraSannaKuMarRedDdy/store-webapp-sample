@@ -1,0 +1,30 @@
+{
+  "family": "powerup",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512",
+  "networkMode": "awsvpc",
+  "taskRoleArn": "arn:aws:iam::921759041822:role/ecs_role_Task",
+  "executionRoleArn": "arn:aws:iam::921759041822:role/ecs_role_Task",
+  "containerDefinitions": [
+    {
+      "name": "application",
+      "image": "921759041822.dkr.ecr.us-east-1.amazonaws.com/webapp:webapp_8",
+      "essential": true,
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "powerup_$BUILD_NUMBER",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "portMappings": [
+        {
+          "protocol": "tcp",
+          "containerPort": 8080
+        }
+      ]
+    }
+  ]
+}

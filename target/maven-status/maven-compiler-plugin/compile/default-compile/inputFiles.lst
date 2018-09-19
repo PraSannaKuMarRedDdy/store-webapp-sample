@@ -1,0 +1,16 @@
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\rest\product\ProductRepresentation.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\data\CategoryDTO.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\rest\category\CategoryResource.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\data\CustomerDTO.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\domain\model\customer\CustomerId.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\data\CategoryDTOImporter.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\rest\product\ProductsResource.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\rest\category\CategoryRepresentation.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\domain\model\customer\Customer.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\rest\customer\CustomerRepresentation.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\rest\customer\CustomersResource.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\rest\Paging.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\infrastructure\DataLifecycleListener.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\domain\model\category\Category.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\interfaces\rest\customer\CustomerAssembler.java
+C:\Users\powerupcloud\Desktop\store-webapp-sample\src\main\java\org\seedstack\samples\store\domain\model\product\Product.java
