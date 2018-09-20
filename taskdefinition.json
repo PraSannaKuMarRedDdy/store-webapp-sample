@@ -14,7 +14,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "powerup_11",
+          "awslogs-group": "powerup_12",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
