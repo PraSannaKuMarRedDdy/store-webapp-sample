@@ -1,7 +1,7 @@
 {
     "cluster": "Deployment",
-    "serviceName": "harry",
-    "taskDefinition": "powerupcloud:1",
+    "serviceName": "harry1",
+    "taskDefinition": "powerupcloud1:1",
     "desiredCount": 1,
     "launchType": "FARGATE",
     "platformVersion": "LATEST",
