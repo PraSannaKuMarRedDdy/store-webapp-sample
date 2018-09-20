@@ -1,5 +1,5 @@
 {
-  "family": "powerupcloud",
+  "family": "powerupcloud1",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
   "memory": "512",
@@ -14,7 +14,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "powerup_10",
+          "awslogs-group": "powerup_11",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
